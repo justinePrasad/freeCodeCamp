@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Roboto:wght@500&display=swap');
+
+
+#main{
+  text-align: center;
+  background-color: #e6ccb2;
+  font-family: 'Noto Sans JP';
+  font-size: 16px;
+}
+#img-div{
+background-color: white;
+padding: 60px;
+}
+.responsive{
+  max-width: 100%;
+  height: auto;
+}
+ul {
+  text-align: left;
+  line-height: 170%;
+}
+article, #timeline-header{
+  font-size: 1.7em;
+}
+article{
+  font-size: 90%;
+}
+blockquote{
+  font-style: italic;
+}
+#timeline-header{
+  font-family: Roboto;
+}
+#tribute-link-box, #img-caption, #title{
+  font-family: Roboto;
+}
+a, #tribute-link{
+  color: #335c67;
+}
+a, #tribute-link:hover{
+  color: #4cc9f0;
+}
+img{
+  display: block;
+  margin: auto;
+}
+#header{
+  padding: 2px;
+}
+strong {
+  font-weight: 900;
+}

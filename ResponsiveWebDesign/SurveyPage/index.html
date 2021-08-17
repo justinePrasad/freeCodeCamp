@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div id="main">
+            <header>
+              <div class="title">
+                <h1 id="title">YouTube Public Survey</h1>
+              </div>
+              <div class="description">
+                <p id="description">Thank you for answering our questions!</p>
+              </div>
+              </header>
+            <div id="form">
+              <form action="" id="survey-form">
+                <div class="form-group"><label for="name-label" id="name-label"><h2>Name</h2>
+                  <input class="form-control" type="text" id="name" placeholder="Enter your name" required>
+                </label>
+                </div>
+                <div class="form-group">
+                  <label for="email-label" id="email-label"><h2>Email</h2></label>
+                <input class="form-control" type="email" id="email" placeholder="Enter your email"required>
+                </div>
+                <div class="form-group">
+                  <label for="number-label" id="number-label"><h2>Age(optional)</h2></label>
+                <input class="form-control" type="number" id="number" placeholder="Age" min="13" max="99" >
+                </div>
+                <div class="form-group">
+                  <label for="dropdown-label"><h2> Which option best describes why you use YouTube?</h2> </label>
+                <select class="form-control" name="role" id="dropdown"  required >
+                 <option value="Student">Student</option>
+                  <option value="Teacher">Teacher</option>
+                  <option value="Recreation">Recreation</option>
+                  <option value="Hobbies">Hobbies</option>
+                </select>
+                </div>
+                <div class="form-group" required>
+                  <h2>Would you recommend YouTube to a friend?</h2>
+                  <label for="yes">
+                    <input class="radio-input" type="radio" value="Yes" name="recommended" checked="">
+                    Yes
+                  </label><br/>
+                  <label for="maybe">
+                    <input class="radio-input" type="radio" value="Maybe" name="recommended">
+                    Maybe
+                  </label><br/>    
+                  <label for="no">
+                    <input class="radio-input" type="radio" value="No" name="recommended">
+                    No
+                  </label>
+              </div>
+                <div class="form-group">
+                  <h2>What is your favorite feature of YouTube?</h2>
+                  <select class="form-control" name="feature" id="form-feature" >
+                    <option value="community">Community</option>
+                    <option value="music">YouTube Music</option>
+                    <option value="accessibility">Accessibility</option>
+                    <option value="creator">Creators</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <h2>What are some improvements you would like to see?</h2>
+                  <label for="videos">
+                    <input class="input-checkbox"type="checkbox" name="improved" value="videos">
+                    Videos
+                  </label><br/>
+                  <label for="ads">
+                    <input class="input-checkbox"type="checkbox" name="improved" value="ads">
+                    Advertisment
+                  </label><br/>
+                  <label for="youTubeMusic">
+                    <input class="input-checkbox "type="checkbox" name="improved" value="ads">
+                    Youtube Music
+                  </label><br/>
+                  <label for="monetization">
+                    <input class="input-checkbox" type="checkbox" name="improved" value="monetization">
+                    Monetization
+                  </label><br/>
+                </div>
+                <div class="form-group">
+                  <h2>Any comments or suggestions?</h2>
+                  <label for="suggestion-form">
+                    <textarea class="form-control" name="suggestion-from" id="suggestion-form" cols="25" rows="3" placeholder="Enter your comments here..."></textarea>
+                  </label>
+                </div>
+                <div class="form-group">
+                  <label for="submit-form">
+                    <button id="submit"  type="submit">Submit</button>
+                  </label>
+                </div>
+              </form>
+            </div>
+          </div>
+    </body>
+</html>
